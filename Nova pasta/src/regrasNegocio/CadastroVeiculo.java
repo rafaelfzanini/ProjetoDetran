@@ -17,8 +17,8 @@ public class CadastroVeiculo {
 
 
         //Erro de placa inválida.
-        if (placaEntrada == null || placaEntrada.isBlank()) {               // <-- NOVO: trata entrada nula ou em branco
-            placaFinal = Placa.gerarPlacaMercosul();                         // <-- NOVO: gera placa aleatória
+        if (placaEntrada == null || placaEntrada.isBlank()) {               
+            placaFinal = Placa.gerarPlacaMercosul();                         
         }
         else {
             placaFinal = Placa.formatarPlaca(placaEntrada);
