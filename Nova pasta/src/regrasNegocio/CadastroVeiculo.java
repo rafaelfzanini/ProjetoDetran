@@ -24,7 +24,7 @@ public class CadastroVeiculo {
             placaFinal = Placa.formatarPlaca(placaEntrada);
 
             if (!placaEntrada.replace("-", "").equalsIgnoreCase(placaFinal)) { // <-- MANTIDO: valida formato da placa
-                System.out.println("Aviso: A placa informada foi corrigida para o padrão válido: " + placaFinal); // <-- TEXTO AJUSTADO
+                System.out.println("Aviso: A placa informada foi corrigida para o padrão válido: " + placaFinal); 
             }
         }
 
