@@ -23,7 +23,7 @@ public class CadastroVeiculo {
         else {
             placaFinal = Placa.formatarPlaca(placaEntrada);
 
-            if (!placaEntrada.replace("-", "").equalsIgnoreCase(placaFinal)) { // <-- MANTIDO: valida formato da placa
+            if (!placaEntrada.replace("-", "").equalsIgnoreCase(placaFinal)) { 
                 System.out.println("Aviso: A placa informada foi corrigida para o padrão válido: " + placaFinal); 
             }
         }
